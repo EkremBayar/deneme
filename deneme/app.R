@@ -7,7 +7,19 @@
 #    http://shiny.rstudio.com/
 #
 
-library(shiny)
+suppressMessages(library(shiny))
+suppressMessages(library(shinyjs))
+suppressMessages(library(shinyauthr))
+suppressMessages(library(shinyWidgets))
+suppressMessages(library(DT))
+suppressMessages(library(tidyverse))
+suppressMessages(library(dplyr))
+suppressMessages(library(tidyr))
+suppressMessages(library(stringr))
+suppressMessages(library(RPostgres))
+suppressMessages(library(DBI))
+suppressMessages(library(uuid))
+
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
